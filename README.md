@@ -118,8 +118,5 @@ The models were evaluated using cross-validation and test sets. The best-perform
 
 **ZARFSHAN ATTIQ KHAN**
 * 📧 Email: zarfshankahn478@gmail.com
-<<<<<<< Updated upstream
+
 * 🐙 GitHub : https://github.com/zarfshankhan/
-=======
-* 🐙 GitHub :https://github.com/zarfshankhan/
->>>>>>> Stashed changes
