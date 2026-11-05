@@ -1,0 +1,112 @@
+{
+  "best_model": "Gradient Boosting",
+  "results": {
+    "Logistic Regression": {
+      "cv_accuracy": 0.7936,
+      "test_accuracy": 0.8156,
+      "precision": 0.8103,
+      "recall": 0.6812,
+      "f1": 0.7402,
+      "roc_auc": 0.8506,
+      "confusion_matrix": [
+        [
+          99,
+          11
+        ],
+        [
+          22,
+          47
+        ]
+      ]
+    },
+    "Random Forest": {
+      "cv_accuracy": 0.8119,
+      "test_accuracy": 0.7933,
+      "precision": 0.7857,
+      "recall": 0.6377,
+      "f1": 0.704,
+      "roc_auc": 0.831,
+      "confusion_matrix": [
+        [
+          98,
+          12
+        ],
+        [
+          25,
+          44
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "cv_accuracy": 0.826,
+      "test_accuracy": 0.8101,
+      "precision": 0.807,
+      "recall": 0.6667,
+      "f1": 0.7302,
+      "roc_auc": 0.8215,
+      "confusion_matrix": [
+        [
+          99,
+          11
+        ],
+        [
+          23,
+          46
+        ]
+      ]
+    }
+  },
+  "feature_importances": [
+    [
+      "Sex_female",
+      0.32426292506301674
+    ],
+    [
+      "FarePerPerson",
+      0.14177896351872504
+    ],
+    [
+      "Age",
+      0.13450202434144748
+    ],
+    [
+      "Sex_male",
+      0.12480549945395418
+    ],
+    [
+      "Pclass_3",
+      0.11990485178002722
+    ],
+    [
+      "Fare",
+      0.08272485249105693
+    ],
+    [
+      "FamilySize",
+      0.0356213941627273
+    ],
+    [
+      "Embarked_S",
+      0.019846437021262518
+    ],
+    [
+      "SibSp",
+      0.013198220603852536
+    ],
+    [
+      "Embarked_C",
+      0.0018133392474268715
+    ],
+    [
+      "Pclass_1",
+      0.0007706575871452809
+    ],
+    [
+      "Embarked_Q",
+      0.0006989057511341895
+    ]
+  ],
+  "n_train": 712,
+  "n_test": 179,
+  "survival_rate": 0.3838
+}
